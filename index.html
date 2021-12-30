@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JavaScript для начинающих</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+        <!-- ToDo список задач -->
+		<div class="simple-todo">
+			<div class="tasks-wrapper">
+				<h2>Список задач</h2>
+				<ul id="todo-list">
+					<li>Посмотреть вебинар</li>
+					<li>Написать конспект</li>
+					<li>Повторить код с урока</li>
+				</ul>
+			</div>
+			<form id="todo-form">
+				<input id="todo-input" type="text" placeholder="Введите название задачи" />
+				<button type="submit">Добавить задачу</button>
+			</form>
+		</div>
+
+        <!-- Таймер setInterval -->
+		<div class="dom-example">
+			<h2>Таймер</h2>
+            <div class="counter" id="counter">0</div>
+            <button role="button" id="start">Старт</button>
+            <button role="button" id="pause">Пауза</button>
+            <button role="button" id="reset">Сброс</button>
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
